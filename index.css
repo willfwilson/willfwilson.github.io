@@ -28,6 +28,7 @@ svg {
     width: 20%;
     fill-opacity: 0;
     animation: fadeOpacity 2s forwards 0s;
+    -webkit-animation: fadeOpacity 2s forwards 0s;
     
   }
   
@@ -38,6 +39,7 @@ svg {
     stroke-dasharray: 1;
     stroke-dashoffset: 1;
     animation: draw 1s forwards;
+    -webkit-animation: draw 1s forwards;
   }
   
   @keyframes draw {
