@@ -27,8 +27,8 @@ body {
 svg {
     width: 150px;
     fill-opacity: 0;
-    animation: fadeOpacity 1.5s forwards .2s;
-    -webkit-animation: fadeOpacity 1.5s forwards .2s;
+    animation: fadeOpacity 1.5s forwards 0.2s;
+    -webkit-animation: fadeOpacity 1.5s forwards 0.2s;
     
   }
   
