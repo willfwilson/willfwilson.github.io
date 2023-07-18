@@ -39,6 +39,8 @@ svg {
     stroke-dasharray: 1;
     stroke-dashoffset: 1;
     animation: draw 2s forwards 0.5s;
+    animation: morph 2s forwards 0.5s;
+    
     -webkit-animation: wkdraw 2s forwards 0.5s;
   }
 
@@ -49,6 +51,7 @@ svg {
     stroke-dasharray: 1;
     stroke-dashoffset: 1;
     animation: draw 2s forwards;
+   
     -webkit-animation: wkdraw 2s forwards;
   }
   
@@ -62,6 +65,10 @@ svg {
     
     
   }
+
+  
+  
+  
 
   @-webkit-keyframes wkdraw {
     from {
@@ -112,6 +119,7 @@ header table {
 }
 #logo {
     width:30%;
+    /* justify-content: center; */
 }
 #navigation {
     width:80%;
@@ -149,6 +157,7 @@ header table {
 #logo {
     font-size:24px;
     color:rgb(255, 44, 90);
+    text-align:left;
 }
 #navigation {
     text-align:right;
