@@ -27,15 +27,15 @@ body {
 svg {
     width: 150px;
     fill-opacity: 0;
-    animation: fadeOpacity 4s forwards 0s;
-    -webkit-animation: wkfadeOpacity 4s forwards 0s;
+    animation: fadeOpacity 3s forwards 0s;
+    -webkit-animation: wkfadeOpacity 3s forwards 0s;
     
   }
   
   svg path {
-    stroke:rgb(255, 44, 90);
+    stroke:rgb(255, 255, 255);
     /* stroke-width: 10; */
-    fill:rgb(255, 44, 90);
+    fill:rgb(255, 255, 255);
     stroke-dasharray: 1;
     stroke-dashoffset: 1;
     animation: draw 1s forwards;
@@ -243,6 +243,7 @@ header table {
     border-bottom:4px solid rgb(255, 44, 90);
     width:6%;
     color:rgb(255, 255, 255);
+    
 }
 #photos {
     width:100%;
@@ -263,14 +264,15 @@ header table {
 }
 #bio {
     width:92vw;
-    color: #fff;
+    color: rgb(0, 0, 0);
+    background-color: #fff;
     padding:6vh 4vw;
     font-weight:bold;
 }
 #bio h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(255, 44, 90);
-    color: #fff;
+    color: rgb(0, 0, 0);
     width:8%;
 }
 #contact {
@@ -403,6 +405,7 @@ button:focus {
         padding-top:20vh !important;
         text-align:center;
         padding:0px 4%;
+    
         
     }
     #about table {
