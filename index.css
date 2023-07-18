@@ -27,18 +27,28 @@ body {
 svg {
     width:  100px;
     fill-opacity: 0;
-    animation: fadeOpacity 1s forwards 0.5s;
-    -webkit-animation: wkfadeOpacity 1s forwards 0.5s;
+    animation: fadeOpacity 1s forwards 1s;
+    -webkit-animation: wkfadeOpacity 1s forwards 1s;
     
   }
   
-  svg path {
-    /* stroke:rgb(255, 255, 255); */
+  svg path.cls-1{
+    stroke:#247df1;
     /* stroke-width: 10; */
     /* fill:rgb(0, 0, 0); */
     stroke-dasharray: 1;
     stroke-dashoffset: 1;
-    animation: draw 2s forwards;
+    animation: draw 1s forwards 0.5s;
+    -webkit-animation: wkdraw 1s forwards 0.5s;
+  }
+
+  svg path.cls-2{
+    stroke:rgb(255, 255, 255);
+    /* stroke-width: 10; */
+    /* fill:rgb(0, 0, 0); */
+    stroke-dasharray: 1;
+    stroke-dashoffset: 1;
+    animation: draw 1s forwards;
     -webkit-animation: wkdraw 1s forwards;
   }
   
