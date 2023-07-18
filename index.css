@@ -28,7 +28,7 @@ svg {
     width: 150px;
     fill-opacity: 0;
     animation: fadeOpacity 1.5s forwards 0.2s;
-    -webkit-animation: fadeOpacity 1.5s forwards 0.2s;
+    -webkit-animation: wkfadeOpacity 1.5s forwards 0.2s;
     
   }
   
@@ -39,7 +39,7 @@ svg {
     stroke-dasharray: 1;
     stroke-dashoffset: 1;
     animation: draw 1s forwards;
-    -webkit-animation: draw 1s forwards;
+    -webkit-animation: wkdraw 1s forwards;
   }
   
   @keyframes draw {
@@ -53,7 +53,7 @@ svg {
     
   }
 
-  @-webkit-keyframes draw {
+  @-webkit-keyframes wkdraw {
     from {
       stroke-dashoffset: 1;
     }
@@ -64,14 +64,6 @@ svg {
     
   }
   
-  @-webkit-keyframes fadeOpacity {
-    from {
-      fill-opacity: 0;
-    }
-    to {
-      fill-opacity: 1;
-    }
-  }
 
   @keyframes fadeOpacity {
     from {
@@ -81,6 +73,16 @@ svg {
       fill-opacity: 1;
     }
   }
+
+  @-webkit-keyframes wkfadeOpacity {
+    from {
+      fill-opacity: 0;
+    }
+    to {
+      fill-opacity: 1;
+    }
+  }
+
 @keyframes rotate {
     0% {transform: rotate(0deg);}
     100% {transform: rotate(360deg);}
