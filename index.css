@@ -38,8 +38,8 @@ svg {
     /* fill:rgb(0, 0, 0); */
     stroke-dasharray: 1;
     stroke-dashoffset: 1;
-    animation: draw 1s forwards 0.5s;
-    -webkit-animation: wkdraw 1s forwards 0.5s;
+    animation: draw 2s forwards 0.5s;
+    -webkit-animation: wkdraw 2s forwards 0.5s;
   }
 
   svg path.cls-2{
@@ -48,8 +48,8 @@ svg {
     /* fill:rgb(0, 0, 0); */
     stroke-dasharray: 1;
     stroke-dashoffset: 1;
-    animation: draw 1s forwards;
-    -webkit-animation: wkdraw 1s forwards;
+    animation: draw 2s forwards;
+    -webkit-animation: wkdraw 2s forwards;
   }
   
   @keyframes draw {
