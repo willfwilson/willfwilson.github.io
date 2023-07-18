@@ -25,7 +25,7 @@ body {
     align-items: center;
 }
 svg {
-    width:  100px;
+    width:  150px;
     fill-opacity: 0;
     animation: fadeOpacity 1s forwards 1s;
     -webkit-animation: wkfadeOpacity 1s forwards 1s;
