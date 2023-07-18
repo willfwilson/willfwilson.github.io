@@ -52,7 +52,27 @@ svg {
     
     
   }
+
+  @-webkit-keyframes draw {
+    from {
+      stroke-dashoffset: 1;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+    
+    
+  }
   
+  @-webkit-keyframes fadeOpacity {
+    from {
+      fill-opacity: 0;
+    }
+    to {
+      fill-opacity: 1;
+    }
+  }
+
   @keyframes fadeOpacity {
     from {
       fill-opacity: 0;
