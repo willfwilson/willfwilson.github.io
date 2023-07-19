@@ -43,7 +43,7 @@ svg {
     stroke-dashoffset: 1;
     animation: draw 0.5s forwards 0s;
    
-    -webkit-animation: wkdraw 0.5s forwards 0;
+    -webkit-animation: wkdraw 0.5s forwards 0s;
   }
   svg path.cls-3{
     /* stroke:rgb(255, 255, 255); */
@@ -52,7 +52,7 @@ svg {
     stroke-dasharray: 1;
     stroke-dashoffset: 1;
     animation: draw 1s forwards 0.2s;
-    -webkit-animation: wkdraw 1s forwards 0.2;
+    -webkit-animation: wkdraw 1s forwards 0.2s;
   }
   svg path.cls-4{
     /* stroke:rgb(255, 255, 255); */
@@ -61,7 +61,7 @@ svg {
     stroke-dasharray: 1;
     stroke-dashoffset: 1;
     animation: draw 1s forwards 0.8s;
-    -webkit-animation: wkdraw 1s forwards 0.8;
+    -webkit-animation: wkdraw 1s forwards 0.8s;
   }
 
   svg path.cls-2{
@@ -71,7 +71,7 @@ svg {
     stroke-dasharray: 1;
     stroke-dashoffset: 1;
     animation: draw 0.4s forwards 1s;
-    -webkit-animation: wkdraw 0.4s forwards 1;
+    -webkit-animation: wkdraw 0.4s forwards 1s;
   }
   
   @keyframes draw {
