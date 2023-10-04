@@ -9,6 +9,22 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .imgbox {
+            display: grid;
+            height: 100%;
+        }
+        .center-fit {
+            max-width: 100%;
+            max-height: 100%;
+            margin: auto;
+        }
+    </style>
+    
 </head>
 <body>
     <div id="loading">
@@ -23,6 +39,7 @@
             </g></g></svg>  -->
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 226.96 126.53" >
             <defs><style>.cls-1{fill:#fff;}.cls-1{stroke:#fff;}.cls-2{fill:#001c8a00;}.cls-2{stroke:#ffffff;}.cls-3{fill:#007fe9;}.cls-3{stroke:#007fe9;}.cls-4{fill:#004ab9;}.cls-4{stroke:#ffffff00;}</style></defs>
+            <!-- <defs><style>.cls-1{fill:#fff;}.cls-1{stroke:#fff;}.cls-2{fill:#001c8a00;}.cls-2{stroke:#ffffff;}.cls-3{fill:#007fe9;}.cls-3{stroke:#007fe9;}.cls-4{fill:#004ab9;}.cls-4{stroke:#ffffff00;}</style></defs> -->
             <g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1">
                 <path pathLength="1"  class="cls-4" d="M10,0H217a10,10,0,0,1,10,10V75.87a50.66,50.66,0,0,1-50.66,50.66H10a10,10,0,0,1-10-10V10A10,10,0,0,1,10,0Z"/>
                 <path pathLength="1"  class="cls-2" d="M10.76,2.29H216.27a7.92,7.92,0,0,1,7.92,7.92V75.27a48.58,48.58,0,0,1-48.58,48.58H10.76a7.92,7.92,0,0,1-7.92-7.92V10.21A7.92,7.92,0,0,1,10.76,2.29Z"/>
@@ -60,28 +77,102 @@
     <table id="top_part">
         <tr>
             <td id="about" class="animated slideInLeft" style="animation-delay:2s;">
-                <h1>PhD Student at Birmingham City University</h1>
+          
+            
+                <h1><b>PhD Student at Birmingham City University</b></h1>
                 <!-- <h2>PhD Student at Birmingham City University</h2> -->
                 <!-- <button class="btn_one">Hire Me</button><br> -->
+             
+                    <!-- <img src="will.png"  style="float:right;"/> -->
+           
+                
                 <table>
+                    
                     <tr>
                         <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"><i class="fas fa-graduation-cap"></i></a></td>
                         <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"><i class="fab fa-linkedin"></i></a></td>
                         <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"><i class="fab fa-github"></i></a></td>
                         <!-- <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"><i class="fab fa-dribbble"></i></a></td>
                         <td class="animated zoomIn" style="animation-delay:3.0s;"><a class="social"><i class="fab fa-medium"></i></a></td> -->
-
+                        
                     </tr>
                 </table>
             </td>
             <td id="rightImage" style="animation-delay:2.2s;"></td>
+           
+            
         </tr>
     </table>
+    <div id="bio">
+        <h1>About</h1>
+        <p>
+            <br> 
+            I am a PhD Student at Birmingham City University, currently researching applications of ubiquitous wearable technologies towards violin performance analyses.
+        </p>
+        <p>
+            <br> 
+            During my undergraduate degree, I researched methods of implementing parametric modelling in the design and manufacture of acoustic diffusers. 
+        </p>
+        <p>
+            <br> 
+            Take a look at some of my current and past work below.
+        </p>
+    </div>
     <div id="work">
         <h1>Work</h1>
+        <h2><br>MMRP 2023:<br></h2>
+        <br>coming soon...<br>
+
+
+        <h2><br>NIME 2023:<br></h2>
+
         
-        <div id="photos">
-            <img onclick="magnify($(this).attr('src'))" src="WilsonNIME.png">
+        
+        
+    </div>
+    <div id="poster">
+        <img onclick="magnify($(this).attr('src'))" class="center-fit" src="WilsonNIME.png" >
+        <!-- <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1547922657-b370d1687eb1?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80">
+        <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1549375463-8cbc18ca3f24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80">
+        <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1549366021-9f761d450615?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=650&q=80">
+        <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1549309019-a1d77aeae74f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
+        <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1547149666-769b42053e67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80">
+        <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1547950515-e652d0f50b1b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
+        <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1545342084-d03fe58ea023?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=633&q=80"> -->
+    </div>
+    <div id="undergrad">
+        <h2><br>Undergraduate Project:<br></h2>
+        <br><br>
+        During my undergraduate degree I researched methods of implementing parametric modelling in the design and manufacture of acoustic diffusers. 
+        <br><br>
+        Below are a number of diffusers modelled in Rhino3D; calculation of PRD, and QRD, and BAD algorithms were automated for each respective diffuser type.
+        <br><br>
+        This approach allows for instant ‘remodelling’ of the diffuser based upon user-specified inputs such as the maximum well-depth, well-width, and total number of wells; these properties determine the acoustic characteristics of each diffuser. 
+        <br><br>
+        A MATLAB Application was created to automate calculation of the PRD algorithm, from which the resultant series of well-depth values is exported to Grasshopper via a .csv file. 
+        <br><br>
+        Automation of the QRD algorithm was performed entirely within Grasshopper.
+        <br><br>  
+        A number of these were machined through various rapid-prototyping technologies, including CNC Milling, FDM 3D Printing and Laser Cutting
+        <br><br>
+        I'd like to thank Dr. Islah Ali-MacLachlan and Dr. Gregory Dunn, Mohammed Chomok, Kristine Biteniece, and Alex Barratt for their help with this project
+        <br><br>
+        <div id="photosMain">
+            <figure><img onclick="magnify($(this).attr('src'))" class="center-fit" src="undergrad/IMG_9634-2.JPG" ><figcaption caption-side: bottom;>2D QRD Diffuser</figcaption></figure>
+            
+            <figure><img onclick="magnify($(this).attr('src'))" class="center-fit" src="undergrad/IMG_9673-2.JPG" ><figcaption caption-side: bottom;>Interpolated 2D QRD Diffuser</figcaption></figure>
+         
+            <!-- <img onclick="magnify($(this).attr('src'))" class="center-fit" src="undergrad/IMG_9634-2.JPG" > -->
+
+            <figure><img onclick="magnify($(this).attr('src'))" class="center-fit" src="undergrad/IMG_9515-2.jpg" ><figcaption caption-side: bottom;>Binary Amplitude Diffuser</figcaption></figure>
+
+            <figure><img onclick="magnify($(this).attr('src'))" class="center-fit" src="undergrad/IMG_9544-2.JPG" ><figcaption caption-side: bottom;>2D PRD Diffuser</figcaption></figure>
+
+            <figure><img onclick="magnify($(this).attr('src'))" class="center-fit" src="undergrad/IMG_9546-2.JPG" ><figcaption caption-side: bottom;>Interpolated 2D PRD Diffuser</figcaption></figure>
+
+            <figure><img onclick="magnify($(this).attr('src'))" class="center-fit" src="undergrad/IMG_9547-2.JPG" ><figcaption caption-side: bottom;>1D Fractal QRD Diffuser</figcaption></figure>
+
+            <figure><img onclick="magnify($(this).attr('src'))" class="center-fit" src="undergrad/Screenshot+2020-10-21+at+6.42.24+pm.png" ><figcaption caption-side: bottom;>PRD Well Depth Calculator</figcaption></figure>
             <!-- <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1547922657-b370d1687eb1?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80">
             <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1549375463-8cbc18ca3f24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80">
             <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1549366021-9f761d450615?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=650&q=80">
@@ -90,15 +181,34 @@
             <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1547950515-e652d0f50b1b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
             <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1545342084-d03fe58ea023?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=633&q=80"> -->
         </div>
+        <div id="videos">
+
+        <figure><video width="500px" height="300px" controls="controls" muted="true">
+            <source src="undergrad/IMG_9500.mp4" type="video/mp4" />
+           </video><figcaption>2D PRD Routing Path Simulation</figcaption></figure>
+        </figure>
+
+        <figure><video width="500px" height="300px" controls="controls" muted="true">
+            <source src="undergrad/trimmed.mov" type="video/mp4" />
+        </video><figcaption>1D Fractal QRD Milling</figcaption></figure>
+        </figure>
     </div>
-    <div id="bio">
-        <h1>About</h1>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+        <div id="photos">
+
+            <figure><img onclick="magnify($(this).attr('src'))" class="center-fit" src="undergrad/IMG_7744.jpeg" ><figcaption caption-side: bottom;>2D PRD Diffuser</figcaption></figure>
+            <figure><img onclick="magnify($(this).attr('src'))" class="center-fit" src="undergrad/IMG_7746.jpeg" ><figcaption caption-side: bottom;>1D QRD Diffuser</figcaption></figure>
+            <figure><img onclick="magnify($(this).attr('src'))" class="center-fit" src="undergrad/IMG_8319+Edited.JPG" ><figcaption caption-side: bottom;>1D Fractal QRD Diffuser</figcaption></figure>
+            <figure><img onclick="magnify($(this).attr('src'))" class="center-fit" src="undergrad/IMG_8320-1.jpg" ><figcaption caption-side: bottom;>Interpolated 2D PRD Diffuser</figcaption></figure>
+            <figure><img onclick="magnify($(this).attr('src'))" class="center-fit" src="undergrad/BAD3.png" ><figcaption caption-side: bottom;>Binary Amplitude Diffuser</figcaption></figure>
+            <!-- <img onclick="magnify($(this).attr('src'))" class="center-fit" src="WilsonNIME.png" > -->
+            <!-- <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1547922657-b370d1687eb1?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80">
+            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1549375463-8cbc18ca3f24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80">
+            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1549366021-9f761d450615?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=650&q=80">
+            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1549309019-a1d77aeae74f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
+            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1547149666-769b42053e67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80">
+            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1547950515-e652d0f50b1b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
+            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1545342084-d03fe58ea023?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=633&q=80"> -->
+        </div>
     </div>
     <div id="contact">
         <h1>Contact</h1>
