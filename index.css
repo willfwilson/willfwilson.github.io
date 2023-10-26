@@ -574,7 +574,7 @@ button:focus {
     }
     #about {
         width:92% !important;
-        height:55vh;
+        height:100vh;
         padding-top:10vh !important;
         text-align:center;
         padding:0px 4%;
