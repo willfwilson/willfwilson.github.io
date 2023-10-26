@@ -544,6 +544,7 @@ button:focus {
     }
     #photos img {
         margin:2% 0px;
+        
     }
     /* #photos img:hover {
         transform: scale(1);
@@ -574,7 +575,7 @@ button:focus {
     #about {
         width:92% !important;
         height:55vh;
-        padding-top:-50vh !important;
+        padding-top:10vh !important;
         text-align:center;
         padding:0px 4%;
     
